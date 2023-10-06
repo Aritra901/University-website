@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>University Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Poppins:wght@100;200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"
+    /> -->
+    <link
+      href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="images/logo.png" /></a>
+        <div class="nav-links" id="navlink">
+          <i class="fa fa-times" onclick="hidemenu()"></i>
+          <ul>
+            <li><a href="">HOME</a></li>
+            <li><a href="">ABOUT</a></li>
+            <li><a href="">COURSE</a></li>
+            <li><a href="">BLOG</a></li>
+            <li><a href="">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showmenu()"></i>
+      </nav>
+      <h1>About Us</h1>
+    </section>
+    <!-- ----About us content------>
+    <section class="about-us">
+      <div class="row">
+        <div class="about-col">
+          <h1>We are The World's largest University</h1>
+          <p>
+            "As the world's largest university, [Your University Name] stands as
+            a beacon of higher education excellence. With a global reach and a
+            commitment to accessible learning, we empower students from every
+            corner of the globe to pursue their educational dreams. Our vast
+            network of campuses and online programs ensures that quality
+            education knows no boundaries. Join us on a journey of boundless
+            knowledge and opportunity."
+          </p>
+          <a href="" class="hero-btn about-btn">EXPLORE NOW</a>
+        </div>
+        <div class="about-col">
+          <img src="./images/about.jpg" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <!-- !---Facilites--- -->
+
+    <!----testimonials---->
+
+    <!-----Footer------>
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        "At [Your University Name], we are dedicated to nurturing the brightest
+        minds of tomorrow. With a rich history of academic excellence, we
+        provide a dynamic learning environment that fosters innovation, critical
+        thinking, and personal growth. Join us at [Your University Name] and
+        embark on a journey of knowledge, leadership, and endless
+        possibilities."
+      </p>
+      <div class="icons">
+        <i class="fa fa-facebook" aria-hidden="true"></i>
+        <i class="fa fa-twitter" aria-hidden="true"></i>
+        <i class="fa fa-instagram" aria-hidden="true"></i>
+        <i class="fa fa-linkedin" aria-hidden="true"></i>
+      </div>
+    </section>
+
+    <!----JavaScript Toggle Menu---->
+
+    <script>
+      var navlinks = document.getElementById("navlink");
+      function showmenu() {
+        navlink.style.right = "0";
+      }
+      function hidemenu() {
+        navlink.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
